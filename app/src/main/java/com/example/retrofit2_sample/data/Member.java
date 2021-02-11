@@ -20,6 +20,18 @@ public class Member {
 
     private String exerciseCode;
 
+    public Member(String memberId, String memberName, String email, LoginType loginType, String birth, String gender, double height, double weight, String exerciseCode) {
+        this.memberId = memberId;
+        this.memberName = memberName;
+        this.email = email;
+        this.loginType = loginType;
+        this.birth = birth;
+        this.gender = gender;
+        this.height = height;
+        this.weight = weight;
+        this.exerciseCode = exerciseCode;
+    }
+
     public String getMemberId() {
         return memberId;
     }

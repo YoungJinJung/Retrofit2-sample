@@ -15,6 +15,19 @@ public class Food {
     private double sodium;
     private double sugar;
 
+    public Food(String foodCode, String foodName, FoodCategory foodCategory, String foodDescription, double foodCalorie, double carbon, double protein, double fat, double sodium, double sugar) {
+        this.foodCode = foodCode;
+        this.foodName = foodName;
+        this.foodCategory = foodCategory;
+        this.foodDescription = foodDescription;
+        this.foodCalorie = foodCalorie;
+        this.carbon = carbon;
+        this.protein = protein;
+        this.fat = fat;
+        this.sodium = sodium;
+        this.sugar = sugar;
+    }
+
     public String getFoodCode() {
         return foodCode;
     }
